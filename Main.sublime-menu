@@ -1,0 +1,30 @@
+[
+    {
+        "caption": "Preferences",
+        "id": "preferences",
+        "mnemonic": "n",
+        "children": [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "mnemonic": "P",
+                "children": [
+                    {
+                        "caption": "SimpleAdd",
+                        "children": [
+                            {
+                                "caption": "Key Bindings",
+                                "command": "edit_settings",
+                                "args":
+                                {
+                                    "base_file": "${packages}/SimpleAdd/Default (${platform}).sublime-keymap",
+                                    "default": "${packages}/User/Default (${platform}).sublime-keymap"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
